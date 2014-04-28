@@ -2,7 +2,7 @@ var positions = [];
 var points_layer;
 
 var init = function() {
-  map = new OpenLayers.Map("map");
+  map = new OpenLayers.Map("map_appycenter");
   var base_layer = new OpenLayers.Layer.OSM();
   var fromProjection = new OpenLayers.Projection("EPSG:4326");
   var toProjection = new OpenLayers.Projection("EPSG:900913");
